@@ -1,0 +1,51 @@
+* {
+  font-family: Arial;
+  /*border: 1px solid pink;*/
+}
+
+body {
+  background: #477C67;
+  color: #FFEFD5;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  width: 33%;
+  float: left;
+}
+
+div h2 {
+  text-align: center;
+}
+
+#recent li {
+  color: #FFFFFF;
+}
+
+
+.pageButton {
+  color: #424242;
+  font-size: larger;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+
+.inputfield {
+  border-radius: 5px;
+  width: 50%;
+}
+
+
+div.blogpost {
+  height: 3em;
+  width: 100%;
+  vertical-align: middle;
+  font-size: larger;
+}
+
+
