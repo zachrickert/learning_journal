@@ -5,3 +5,4 @@ __pycache__/
 blog.html
 bin/
 lib/
+*.egg-info
