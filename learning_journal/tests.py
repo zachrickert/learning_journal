@@ -3,6 +3,21 @@ import unittest
 from pyramid import testing
 
 
+def test_detail_view_has_title():
+    from .views import detail_view
+
+    request = testing.DummyRequest()
+    info = detail_view(request)
+    assert 'title' in info.keys()
+
+# @pytest.fixture()
+# def testapp():
+#     from learning_journal import main
+#     app = main({})
+#     from webtest import TestApp
+#     import TestApp(app)
+    
+
 class ViewTests(unittest.TestCase):
     def setUp(self):
         self.config = testing.setUp()
